@@ -1,1 +1,76 @@
-{}
+{
+	"1": {
+		"0": {
+			"0": "1.0.0"
+		}
+	},
+	"3": {
+		"0": {
+			"0": "3.0.0"
+		}
+	},
+	"Event Locator API": "Event Locator API",
+	"API for discovering, managing, and interacting with events based on user location and preferences.": "API for discovering, managing, and interacting with events based on user location and preferences.",
+	"http": "//localhost:5000",
+	"Development Server": "Development Server",
+	"https": "//api.example.com/v1",
+	"Production Server": "Production Server",
+	"bearer": "bearer",
+	"JWT": "JWT",
+	"object": "object",
+	"string": "string",
+	"email": "email",
+	"password": "password",
+	"number": "number",
+	"date-time": "date-time",
+	"title": "title",
+	"description": "description",
+	"latitude": "latitude",
+	"longitude": "longitude",
+	"date": "date",
+	"Register a new user": "Register a new user",
+	"#/components/schemas/UserRegister": "#/components/schemas/UserRegister",
+	"User registered successfully": "User registered successfully",
+	"Invalid input": "Invalid input",
+	"User login": "User login",
+	"#/components/schemas/UserLogin": "#/components/schemas/UserLogin",
+	"Login successful, returns JWT token": "Login successful, returns JWT token",
+	"Invalid credentials": "Invalid credentials",
+	"Logout user": "Logout user",
+	"User logged out successfully": "User logged out successfully",
+	"Get all events (Filter by category if provided)": "Get all events (Filter by category if provided)",
+	"category": "category",
+	"query": "query",
+	"Filter events by category (e": {
+		"g": {
+			", 'Music', 'Sports', 'Tech')": "Filter events by category (e.g., 'Music', 'Sports', 'Tech')"
+		}
+	},
+	"List of events": "List of events",
+	"Create a new event": "Create a new event",
+	"#/components/schemas/Event": "#/components/schemas/Event",
+	"Event created successfully": "Event created successfully",
+	"Duplicate event title": "Duplicate event title",
+	"Search events by location": "Search events by location",
+	"radius": "radius",
+	"List of events within the specified radius": "List of events within the specified radius",
+	"Update an event by ID": "Update an event by ID",
+	"id": "id",
+	"path": "path",
+	"integer": "integer",
+	"Event updated successfully": "Event updated successfully",
+	"Event not found": "Event not found",
+	"Delete an event by ID": "Delete an event by ID",
+	"Event deleted successfully": "Event deleted successfully",
+	"Users": "Users",
+	"Error registering user": "Error registering user",
+	"Login an existing user": "Login an existing user",
+	"Login successful": "Login successful",
+	"Invalid email or password": "Invalid email or password",
+	"Error logging in user": "Error logging in user",
+	"User management": "User management",
+	"event": {
+		"created_successfully": "event.created_successfully",
+		"duplicate_title": "event.duplicate_title"
+	}
+}

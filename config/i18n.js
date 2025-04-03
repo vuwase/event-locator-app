@@ -1,17 +1,11 @@
 const i18n = require('i18n');
 
+// Set up i18n configuration
 i18n.configure({
-    locales: ['en', 'fr'], // Add supported locales
-    directory: __dirname + '/locales', // Path to locale files
-    defaultLocale: 'en', // Default locale
-    cookie: 'lang' // Cookie name for the locale
+  locales: ['en', 'fr'],  // Add the languages you need
+  directory: __dirname + '/locales',  // Path to translations folder
+  defaultLocale: 'en',  // Set default locale
+  objectNotation: true, // Allow nested translations
 });
 
-// Middleware for i18n
-const i18nMiddleware = (req, res, next) => {
-    i18n.init(req, res); // Initialize i18n
-    next(); // Proceed to the next middleware
-};
-
-module.exports = i18nMiddleware; // Export the middleware
-// Compare this snippet from middleware/authMiddleware.js:
+module.exports = i18n;

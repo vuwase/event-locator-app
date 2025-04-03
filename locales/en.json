@@ -1,5 +1,10 @@
 {
-    "welcome": "Welcome to Event Locator!",
-    "event_created": "Event created successfully."
+  "event": {
+    "created_successfully": "Event created successfully",
+    "duplicate_title": "An event with the same title already exists",
+    "missing_parameters": "Latitude, longitude, and radius are required for search",
+    "not_found": "Event not found",
+    "updated_successfully": "Event updated successfully",
+    "deleted_successfully": "Event deleted successfully"
   }
-  
+}

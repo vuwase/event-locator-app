@@ -29,10 +29,12 @@ module.exports = (sequelize) => {
             type: DataTypes.FLOAT,
             allowNull: false,
         },
+        
         date: {
-            type: DataTypes.DATE,
+            type: DataTypes.STRING,
             allowNull: false,
         },
+
         createdBy: {
             type: DataTypes.INTEGER,
             references: {
