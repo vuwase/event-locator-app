@@ -56,10 +56,11 @@ DATABASE_URL=postgresql://user:password@localhost:5432/eventdb
 JWT_SECRET=your_super_secret
 REDIS_URL=redis://localhost:6379
 
-
 Authorization: Bearer <your_token>
 
-http://localhost:5000/api-docs
+
+Link to the Swagger API Documentation ; http://localhost:5000/api-docs
 
 
 ---
+Link to the video ; https://vimeo.com/1072376776/0e97795212?share=copy

@@ -71,6 +71,8 @@
 	"User management": "User management",
 	"event": {
 		"created_successfully": "event.created_successfully",
-		"duplicate_title": "event.duplicate_title"
+		"duplicate_title": "event.duplicate_title",
+		"updated_successfully": "event.updated_successfully",
+		"deleted_successfully": "event.deleted_successfully"
 	}
 }
